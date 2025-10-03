@@ -1,0 +1,10 @@
+30/05/2025 11:08:01	insert into classement set date = :date, titre = :titre, fichier = :fichier : SQLSTATE[45000]: <<Unknown error>>: 1644 L'URI du fichier PDF n'est pas valide :la bibliotheque fonction.js.pdf	/ajax/ajouter.php	::1
+19/09/2025 15:25:24	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/index.php	::1
+19/09/2025 15:25:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/connexion/index.php	::1
+19/09/2025 15:25:32	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/index.php	::1
+19/09/2025 15:27:12	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.classement' n'existe pas	/index.php	::1
+19/09/2025 15:29:24	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/index.php	::1
+19/09/2025 15:29:26	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/connexion/index.php	::1
+19/09/2025 15:42:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/index.php	::1
+19/09/2025 16:40:46	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/index.php	::1
+19/09/2025 16:40:54	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/index.php	::1

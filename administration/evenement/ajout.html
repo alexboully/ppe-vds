@@ -1,0 +1,45 @@
+<div class="formulaire p-3" style="max-width: 42rem">
+    <div id="msg"></div>
+    
+    <label for="titre">Titre</label>
+    <input id="titre" 
+           type="text" 
+           required 
+           maxlength="100" 
+           autocomplete="off">
+    
+    <label for="description">Description</label>
+    <textarea id="description" 
+              required 
+              rows="4" 
+              autocomplete="off"></textarea>
+    
+    <label for="dateDebut">Date de l'événement</label>
+    <input id="dateDebut" 
+           type="date" 
+           required>
+    
+    <label for="lieu">Lieu</label>
+    <input id="lieu" 
+           type="text" 
+           maxlength="200" 
+           autocomplete="off">
+    
+    <label for="type">Type d'événement</label>
+    <select id="type" required>
+        <option value="">-- Sélectionner --</option>
+        <option value="organise">Organisé par le club</option>
+        <option value="participe">Participation du club</option>
+    </select>
+    
+    <label for="visible">Visibilité</label>
+    <select id="visible" required>
+        <option value="">-- Sélectionner --</option>
+        <option value="1" selected>Visible</option>
+        <option value="0">Masqué</option>
+    </select>
+    
+    <div class="d-flex justify-content-evenly mt-3">
+        <button id='btnAjouter' class="btn btn-sm btn-outline-danger">✚ Ajouter</button>
+    </div>
+</div>

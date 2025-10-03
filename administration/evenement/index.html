@@ -1,0 +1,142 @@
+<div class="m-1">
+    <style>
+        .btn-outline-danger-custom {
+            color: #212529 !important;
+            border-color: #dc3545;
+            background-color: transparent;
+        }
+        .btn-outline-danger-custom:hover {
+            color: #fff !important;
+            background-color: #dc3545;
+            border-color: #dc3545;
+        }
+        .btn-outline-danger-custom:focus {
+            color: #fff !important;
+            background-color: #dc3545;
+            border-color: #dc3545;
+            box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+        }
+        
+        /* Styles pour le tableau */
+        #leTableau {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+            border-radius: 0.375rem;
+            overflow: hidden;
+        }
+        
+        #leTableau thead {
+            background-color: #f8f9fa;
+            border-bottom: 2px solid #dee2e6;
+        }
+        
+        #leTableau th {
+            padding: 0.75rem;
+            font-weight: 600;
+            color: #495057;
+            border-bottom: 1px solid #dee2e6;
+            text-align: left;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        #leTableau td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #dee2e6;
+            vertical-align: top;
+            color: #212529;
+            font-size: 0.875rem;
+            line-height: 1.5;
+        }
+        
+        #leTableau tbody tr {
+            transition: background-color 0.15s ease-in-out;
+        }
+        
+        #leTableau tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        #leTableau tbody tr:nth-child(even) {
+            background-color: rgba(0, 0, 0, 0.025);
+        }
+        
+        #leTableau tbody tr:nth-child(even):hover {
+            background-color: #f8f9fa;
+        }
+        
+        /* Style pour les descriptions tronquées */
+        #leTableau .description-cell {
+            max-width: 300px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            cursor: help;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            #leTableau {
+                font-size: 0.75rem;
+            }
+            
+            #leTableau th,
+            #leTableau td {
+                padding: 0.5rem 0.25rem;
+            }
+        }
+    </style>
+    
+    <div class="d-flex gap-2 mb-3">
+        <a href="ajout.php" class="btn btn-outline-danger">Ajouter un événement</a>
+        <div class="dropdown">
+            <button class="btn btn-outline-danger-custom dropdown-toggle" type="button" id="dropdownSupprimer" data-bs-toggle="dropdown" aria-expanded="false">
+                Supprimer un événement
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownSupprimer" id="menuSupprimer">
+                <li><h6 class="dropdown-header">Choisir l'événement à supprimer</h6></li>
+                <li><hr class="dropdown-divider"></li>
+            </ul>
+        </div>
+    </div>
+    
+    <table id="leTableau" class="">
+        <thead>
+        <tr>
+            <th data-champ="titre" data-type="text" style='width:200px'>Titre</th>
+            <th data-champ="dateDebut" data-type="date" style='width:150px'>Date</th>
+            <th data-champ="lieu" data-type="text" style='width:150px'>Lieu</th>
+            <th data-champ="type" data-type="text" style='width:120px'>Type</th>
+            <th data-champ="visible" data-type="text" style='width:80px'>Visible</th>
+            <th style='width:300px'>Description</th>
+        </tr>
+        </thead>
+        <tbody id="lesLignes"></tbody>
+    </table>
+    
+    <!-- Modal de confirmation personnalisée -->
+    <div class="modal fade" id="modalConfirmation" tabindex="-1" aria-labelledby="modalConfirmationLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalConfirmationLabel">Confirmer la suppression</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Êtes-vous sûr de vouloir supprimer l'événement :</p>
+                    <div class="alert alert-warning">
+                        <strong id="evenementASupprimer"></strong>
+                    </div>
+                    <p class="text-muted">Cette action est irréversible.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                    <button type="button" class="btn btn-danger" id="btnConfirmerSuppression">Supprimer définitivement</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
