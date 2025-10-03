@@ -6,6 +6,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/include/autoload.php';
 // chargement des données
 $data = json_encode(Page::getClub());
 
+
+
 // transmission des données à l'interface
 $head = <<<HTML
     <script>
