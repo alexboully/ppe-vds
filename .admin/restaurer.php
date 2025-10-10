@@ -1,5 +1,5 @@
 <?php
-// restauration sécurisée du dépôt local depuis GitHub
+// restauration sécurisée du dépôt locale depuis GitHub
 
 date_default_timezone_set('Europe/Paris');
 
