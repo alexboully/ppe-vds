@@ -1,0 +1,85 @@
+30/05/2025 11:08:01	insert into classement set date = :date, titre = :titre, fichier = :fichier : SQLSTATE[45000]: <<Unknown error>>: 1644 L'URI du fichier PDF n'est pas valide :la bibliotheque fonction.js.pdf	/ajax/ajouter.php	::1
+19/09/2025 15:25:24	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/index.php	::1
+19/09/2025 15:25:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/connexion/index.php	::1
+19/09/2025 15:25:32	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/index.php	::1
+19/09/2025 15:27:12	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.classement' n'existe pas	/index.php	::1
+19/09/2025 15:29:24	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/index.php	::1
+19/09/2025 15:29:26	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/connexion/index.php	::1
+19/09/2025 15:42:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/index.php	::1
+19/09/2025 16:40:46	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/index.php	::1
+19/09/2025 16:40:54	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/index.php	::1
+10/10/2025 14:34:07	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.classement' n'existe pas	/index.php	::1
+10/10/2025 14:34:41	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.classement' n'existe pas	/index.php	::1
+10/10/2025 14:37:30	Erreur SQL : SQLSTATE[42S22]: Column not found: 1054 Champ 'saison' inconnu dans field list	/index.php	::1
+10/10/2025 14:37:36	Erreur SQL : SQLSTATE[42S22]: Column not found: 1054 Champ 'saison' inconnu dans field list	/index.php	::1
+10/10/2025 14:37:37	Erreur SQL : SQLSTATE[42S22]: Column not found: 1054 Champ 'saison' inconnu dans field list	/index.php	::1
+10/10/2025 14:37:49	Erreur SQL : SQLSTATE[42S22]: Column not found: 1054 Champ 'saison' inconnu dans field list	/index.php	::1
+10/10/2025 14:37:49	Erreur SQL : SQLSTATE[42S22]: Column not found: 1054 Champ 'saison' inconnu dans field list	/index.php	::1
+10/10/2025 14:37:50	Erreur SQL : SQLSTATE[42S22]: Column not found: 1054 Champ 'saison' inconnu dans field list	/index.php	::1
+10/10/2025 14:37:51	Erreur SQL : SQLSTATE[42S22]: Column not found: 1054 Champ 'saison' inconnu dans field list	/index.php	::1
+10/10/2025 14:46:22	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 14:46:22	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 14:46:29	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 14:46:29	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:10:55	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:10:55	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:16:33	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:16:33	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:16:33	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:16:33	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:16:33	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:16:33	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:16:34	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:16:34	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:26	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:26	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:26	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:26	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:27	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:18:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:18:28	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:26:34	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:26:34	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:26:58	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:26:58	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:31:08	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:31:08	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:32:50	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:32:50	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:32:50	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:32:50	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:32:50	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:32:50	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:32:51	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:32:51	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:32:51	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:32:51	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:32:51	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:32:51	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:32:51	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/lister.php	::1
+10/10/2025 15:32:51	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.evenement' n'existe pas	/Agenda/ajax/prochains.php	::1
+10/10/2025 15:58:30	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/index.php	::1
+10/10/2025 15:58:32	Erreur SQL : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'ppe.page' n'existe pas	/index.php	::1
