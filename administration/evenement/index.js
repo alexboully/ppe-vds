@@ -15,7 +15,7 @@ const lesLignes = document.getElementById('lesLignes');
 const menuSupprimer = document.getElementById('menuSupprimer');
 const modalConfirmation = new bootstrap.Modal(document.getElementById('modalConfirmation'));
 const evenementASupprimer = document.getElementById('evenementASupprimer');
-const btnConfirmerSuppression = document.getElementById('btnConfirmerSuppression');
+const btnConfirmerSuppression = document.getElementById('btnConfirmerSuppression')
 
 let idEvenementASupprimer = null;
 

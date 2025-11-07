@@ -10,6 +10,9 @@
     <link rel="stylesheet"  href="/composant/bootstrap/bootstrap.min.css">
     <script src="/composant/bootstrap/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="/css/style.css">
+    <!-- Autocompletion -->
+    <link rel="stylesheet" href="/composant/autocomplete/autocomplete.css">
+    <script src="/composant/autocomplete/autocomplete.min.js"></script>
     <?php
     // récupération du nom du script php appelé afin de charger le fichier js de même nom
     $file = pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME);

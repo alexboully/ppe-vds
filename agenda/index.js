@@ -111,9 +111,12 @@ class AgendaManager {
             container.innerHTML = `<div class="alert alert-danger">${message}</div>`;
         }
     }
+
+
 }
 
 // Initialisation quand le DOM est chargé
 document.addEventListener('DOMContentLoaded', () => {
     new AgendaManager();
 });
+

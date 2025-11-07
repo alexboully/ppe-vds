@@ -17,6 +17,7 @@ if (!Administrateur::peutAdministrer($_SESSION['membre']['id'], 'evenement')) {
 $titre = 'Ajouter un événement';
 $script = ['ajout.js'];
 
+
 // Inclusion du contenu HTML
 ob_start();
 include 'ajout.html';
